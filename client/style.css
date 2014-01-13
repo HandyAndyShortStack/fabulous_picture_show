@@ -1,0 +1,41 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.room {
+  width: 960px;
+  display: none;
+}
+
+.switcher {
+  text-align: center;
+  top: 0px;
+  position: absolute;
+  width: 240px;
+  opacity: 0;
+  background-color: gray;
+  height: 742px;
+}
+
+.switcher:hover {
+  opacity: 0.5;
+}
+
+.arrow {
+  font-weight: bold;
+  position: relative;
+  top: 325px;
+  font-size: 50pt;
+}
+
+#party {
+  position: absolute;
+  left: 191px;
+  width: 538px;
+  z-index: 50;
+}
+
+#switcher-right {
+  left: 720px;
+}
